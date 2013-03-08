@@ -1,0 +1,21 @@
+nvcc --host-compilation C -o Suma Suma.cu
+Suma.cu:42:2: aviso: no hay caractér de fin de línea al final del fichero
+Suma.cu:42:2: aviso: no hay caractér de fin de línea al final del fichero
+Number of device: 1
+
+Properties of CUDA device number 0
+  Device Name:        GeForce 9500 GT
+  Clock frequency:    1400000 kHz
+  Compute capability: 1.1
+  Device Overlap:     Yes
+  Number of Multi-processor: 4
+  Global Memory Size:        1023 MB
+  Memory Maximum Pitch:      2097151 kB
+  Texture Alignment:          256 bytes
+  Constant Memory Size:        64 MB
+  Shared Memory Size :         16 kB per multi-processor
+  Number of 32-bit registers: 8192 per multi-processor
+  Grid maximum size (X,Y,Z):         65535 x 65535 x     1
+  Thread bloc maximum size (X,Y,Z):    512 x   512 x    64
+  Maximum Number of threads per block: 512 per block of thread
+  Warp Size: 32 threads

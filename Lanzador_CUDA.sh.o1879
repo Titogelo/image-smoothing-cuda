@@ -1,0 +1,3 @@
+nvcc --host-compilation C -o TipoCard TipoCard.cu
+nvcc --host-compilation C -o Suma Suma.cu
+Number of device: 0
